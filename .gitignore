@@ -1,0 +1,11 @@
+# Jupyter ve Colab için gereksiz dosyalar
+.ipynb_checkpoints/
+__pycache__/
+*.log
+*.pkl
+*.h5
+*.sqlite
+
+# Veri seti ve büyük dosyalar
+*.csv
+*.xlsx
