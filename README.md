@@ -1,7 +1,7 @@
-# naive_bayes_YZM212_lab
+# 📌 Naive Bayes ile Diyabet Tahmini 
 #  Naive Bayes ile Diyabet Tahmini
 
-Bu proje, **Naive Bayes algoritması** kullanarak **diyabet hastalığını tahmin etmeyi** amaçlamaktadır. Hem **Scikit-Learn'ün Gaussian Naive Bayes modeli** hem de **manuel olarak yazılan Naive Bayes modeli** karşılaştırılmıştır.
+Bu proje,2024 – 2025 Bahar Dönemi YZM212 Makine Öğrenmesi Dersi I. Laboratuvar Değerlendirmesi Kkapsamında yapılmıştır. **Naive Bayes algoritması** kullanarak **diyabet hastalığını tahmin etmeyi** amaçlamaktadır. Hem **Scikit-Learn'ün Gaussian Naive Bayes modeli** hem de **manuel olarak yazılan Naive Bayes modeli** karşılaştırılmıştır.
 
 ---
 
@@ -11,10 +11,8 @@ Bu proje, **Naive Bayes algoritması** kullanarak **diyabet hastalığını tahm
 - `gaussianNaiveBayesScikitLearn.ipynb`: **Scikit-Learn kütüphanesi ile oluşturulan Naive Bayes modeli**.
 - `diabetes.csv`: **Orijinal veri seti**.
 - `veri_temiz.csv`: **Ön işleme sonrası temizlenmiş veri seti**.
-- 'requirements.txt: Proje için gerekli Python kütüphanelerini içeren dosya.'
-- '.gitignore: Gereksiz dosyaları Git versiyon kontrolüne eklememek için kullanılan dosya.'
-
-
+- `requirements.txt`: Proje için gerekli Python kütüphanelerini içeren dosya.
+- `.gitignore`: Gereksiz dosyaları Git versiyon kontrolüne eklememek için kullanılan dosya.
 
 ---
 
@@ -33,7 +31,7 @@ Bu projede, **iki farklı yöntem** kullanılarak model eğitimi yapılmıştır
 
 ---
 
-## 📈 Sonuçlar ve Karşılaştırma
+## Sonuçlar ve Karşılaştırma
 
 | Model | Doğruluk (Accuracy) | Precision (1) | Recall (1) | Eğitim Süresi | Test Süresi |
 |--------|----------------|---------------|-----------|--------------|------------|
@@ -56,7 +54,7 @@ Bu projede, **iki farklı yöntem** kullanılarak model eğitimi yapılmıştır
 ##  Nasıl Çalıştırılır?
 1️⃣ **Veri setini hazırlayın**: `veri_onisleme.ipynb` dosyasını çalıştırarak temizlenmiş veriyi oluşturunve indirin.  
 2️⃣ **Modelleri çalıştırın**:
-   - `xxnaiveBayesScikitLearn.ipynb` → **Scikit-Learn modelini eğitmek için**
+   - `gaussianNaiveBayesScikitLearn.ipynb` → **Scikit-Learn modelini eğitmek için**
    - `naiveBayes.ipynb` → **Kendi Naive Bayes modelinizi test etmek için**
 3️⃣ **Sonuçları analiz edin**: Çıktıları karşılaştırarak hangi modelin daha iyi çalıştığını değerlendirin.
 
@@ -64,5 +62,3 @@ Bu projede, **iki farklı yöntem** kullanılarak model eğitimi yapılmıştır
 
 ## 📌 Özet
 Bu projede, **Gaussian Naive Bayes algoritması hem Scikit-Learn ile hem de manuel olarak uygulanmıştır**. Performans açısından benzer doğruluk sonuçları elde edilmiş olup, **Scikit-Learn modeli daha hızlı tahmin yaparken, manuel model daha hızlı eğitilmiştir**. Bu çalışma, **temel olasılık teorisini ve makine öğrenmesi modellerinin performans analizini anlamak için faydalı bir deney olmuştur**. 🚀
-
-
