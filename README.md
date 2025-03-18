@@ -56,6 +56,7 @@ Bu projede, **iki farklı yöntem** kullanılarak model eğitimi yapılmıştır
 2️⃣ **Modelleri çalıştırın**:
    - `gaussianNaiveBayesScikitLearn.ipynb` → **Scikit-Learn modelini eğitmek için**
    - `naiveBayes.ipynb` → **Kendi Naive Bayes modelinizi test etmek için**
+   - 
 3️⃣ **Sonuçları analiz edin**: Çıktıları karşılaştırarak hangi modelin daha iyi çalıştığını değerlendirin.
 
 ---
