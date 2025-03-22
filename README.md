@@ -1,8 +1,9 @@
 # 🧠 YZM212 Makine Öğrenmesi Laboratuvarı
 
 Bu repo, **Ankara Üniversitesi Yapay Zeka ve Veri Mühendisliği** bölümü **YZM212 Makine Öğrenmesi** dersi kapsamında gerçekleştirilen laboratuvar çalışmalarını içermektedir.
-Hasna Sena Kaymak / 22290684
+
 ---
+Hasna Sena Kaymak / 22290684
 
 ## 📂 İçerik
 
