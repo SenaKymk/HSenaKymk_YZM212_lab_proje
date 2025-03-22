@@ -64,9 +64,24 @@ Bu proje kapsamında, Mushroom dataset kullanılarak mantarların zehirli veya y
 ---
 
 ## 📊 Sonuç ve Yorumlar
-- Scikit-Learn modeli hız ve doğruluk açısından öne çıkmıştır.
-- Manuel model teorik öğrenme için faydalıdır ancak riskli sınıflarda recall kaybı yaşanmıştır.
-- **Recall (Class 1)** - Zehirli sınıf için kritik olup, gerçek hayatta en önemli metriktir.
-- Class imbalance sorunu yoktur, sınıflar dengelidir.
 
----
+Bu proje kapsamında Mushroom veri seti kullanılarak iki farklı Logistic Regression modeli başarıyla uygulanmıştır:
+
+### 🔹 **Scikit-Learn Logistic Regression**
+- Yüksek doğruluk (%96) elde edilmiştir.
+- Eğitim ve test süreleri oldukça kısadır.
+- Zehirli mantar sınıfı için **Recall** oranı %93 olup güvenli bir sınıflandırma başarısı göstermiştir.
+- Gerçek hayatta kullanılabilir, optimize bir modeldir.
+
+### 🔹 **Manuel Logistic Regression (Gradient Descent)**
+- Model %93 doğruluk sağlamıştır.
+- Zehirli sınıf için **Recall %89** olup sınıflandırma başarısı biraz daha düşük kalmıştır.
+- Eğitim süresi daha uzundur çünkü ağırlık güncelleme işlemleri elle yapılmıştır.
+- Özellikle zehirli sınıftaki False Negative (yanlış yenilebilir sınıflama) riski artmıştır.
+
+### 🚀 **Genel Yorum ve Sonuç**
+- Scikit-Learn modeli pratik kullanım ve güvenilirlik açısından önde gelmiştir.
+- Manuel model algoritmanın temellerini öğrenmek ve nasıl çalıştığını anlamak için faydalıdır.
+- Ancak kritik problemler için **Scikit-Learn tercih edilmelidir** çünkü recall değerleri daha yüksektir ve güvenli sonuçlar sağlar.
+- Zehirli sınıfta recall oranı kritik olduğu için Scikit-Learn modeli gerçek hayattaki senaryolarda kullanılabilir.
+- Manuel modelde, daha fazla iterasyon, öğrenme oranı ayarı ve feature engineering ile performans iyileştirilebilir.
