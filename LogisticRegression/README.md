@@ -85,3 +85,12 @@ Bu proje kapsamında Mushroom veri seti kullanılarak iki farklı Logistic Regre
 - Ancak kritik problemler için **Scikit-Learn tercih edilmelidir** çünkü recall değerleri daha yüksektir ve güvenli sonuçlar sağlar.
 - Zehirli sınıfta recall oranı kritik olduğu için Scikit-Learn modeli gerçek hayattaki senaryolarda kullanılabilir.
 - Manuel modelde, daha fazla iterasyon, öğrenme oranı ayarı ve feature engineering ile performans iyileştirilebilir.
+
+  
+---
+
+### **Değerlendirme Metriklerinin Seçiminde Problem ve Sınıf Dağılımının Önemli midir?**  
+Evet, değerlendirme metriklerinin seçimi problem tipi ve sınıf dağılımı açısından oldukça kritiktir.
+Problem Tipi Açısından;eğer sınıflandırma problemi ikiden fazla sınıfa (multi-class) sahipse, performans metrikleri her bir sınıf için ayrı ayrı hesaplanmalı ve detaylı şekilde değerlendirilmelidir. Böylece modelin hangi sınıflarda güçlü, hangi sınıflarda zayıf olduğu daha net ortaya konur.
+Sınıf Dağılımı Açısından; sınıf dağılımı dengesiz olduğunda, yalnızca doğruluk (accuracy) metriğine bakmak yanıltıcı sonuçlar verebilir.
+Örneğin, eğer veri setinizde sınıf dağılımı dengesiz ise, yani bir sınıf diğerine göre çok daha fazla örneğe sahipse, doğruluk metriği yanıltıcı olabilir. Bu durumda, duyarlılık ve kesinlik gibi metrikler daha anlamlı sonuçlar sağlayabilir. Bu nedenle, projenizde sınıf dağılımını dikkate alarak değerlendirme metriklerini seçmeniz ve yorumlamanız, modelinizin gerçek performansını daha doğru bir şekilde yansıtacaktır.
