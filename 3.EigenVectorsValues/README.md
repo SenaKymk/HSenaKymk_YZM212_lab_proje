@@ -1,4 +1,4 @@
-3. EigenVectorsValues
+# 3. EigenVectorsValues
    
 Bu klasör, YZM212 Makine Öğrenmesi dersi kapsamında özdeğer (eigenvalue) ve özvektör (eigenvector) hesaplamalarını içeren laboratuvar ödevini barındırır.
 
