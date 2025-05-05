@@ -32,6 +32,14 @@ Hasna Sena Kaymak / 22290684
 
 ---
 
+### ✅ Lab 4: Lineer Regresyon (WLSE vs. Gradient Descent)
+- `4.LinearRegression/`
+  - `LinearRegressionWLSE.ipynb` : Kapalı form (WLSE) ile regresyon çözümü
+  - `LinearRegressionWSLearn.ipynb` : Gradient Descent ile regresyon çözümü
+  - `README.md` : Yöntem karşılaştırması ve sonuçların değerlendirilmesi
+
+---
+
 ### 📝 Not:
 Gelecek laboratuvar çalışmaları tamamlandıkça bu liste **güncellenecektir**.
 
@@ -43,3 +51,4 @@ Gelecek laboratuvar çalışmaları tamamlandıkça bu liste **güncellenecektir
 
    ```bash
    git clone https://github.com/SenaKymk/naive_bayes_YZM212_lab.git
+
