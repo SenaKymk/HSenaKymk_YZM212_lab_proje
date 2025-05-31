@@ -1,3 +1,4 @@
+
 #  YZM212 Makine Öğrenmesi Laboratuvarı
 
 Bu repo, **Ankara Üniversitesi Yapay Zeka ve Veri Mühendisliği** bölümü YZM212 Makine Öğrenmesi dersi kapsamında gerçekleştirilen laboratuvar çalışmalarını içermektedir.
@@ -40,10 +41,16 @@ Hasna Sena Kaymak / 22290684
 
 ---
 
-### 📝 Not:
-Gelecek laboratuvar çalışmaları tamamlandıkça bu liste **güncellenecektir**.
+### ✅ Lab 5: İleri ve Geri Yayılım (Forward and Backward Propagation)
+- `5_ForwardAndBackwardPropagation.ipynb` : Elle kodlanmış ileri ve geri yayılım algoritmalarıyla GPA tahmini
+- Kullanılan veri seti: `student-performance.csv`
+- Sonuç: Modelin tahmin performansı ve final MSE değeri
+- Görselleştirmeler: Kayıp (Loss)-Epoch eğrisi, tahmin/gerçek değer karşılaştırması ve hata dağılımı grafiği
 
 ---
+
+### 📝 Not:
+Gelecek laboratuvar çalışmaları tamamlandıkça bu liste **güncellenecektir**.
 
 ## 🚀 Kullanım
 
